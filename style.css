@@ -6,13 +6,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+figure{
+    padding: 2em;
+}
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -653,7 +654,13 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
+a:hover{
+    color: blue!important;
+    font-weight: bold;
+}
+a:focus{
+    border: 3px dashed black;
+}
 .container {
     max-width: 1000px;
 }
@@ -677,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -701,7 +708,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 10px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -775,17 +784,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F4BC90!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #4E342E;
+    color: #FDD839!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    opacity: 0.9!important;
+    color: #B59534!important;
 }
 
 .ltc-white {
@@ -799,11 +808,6 @@ h4 {
 .ltc-atomic-tangerine {
     color: #F3976C!important;
 }
-
-.ltc-atomic-tangerine:hover {
-    color: #c27956!important;
-}
-
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
