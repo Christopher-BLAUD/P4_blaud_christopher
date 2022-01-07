@@ -124,7 +124,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -135,6 +134,10 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+}
+.d-bloc a .icon-md{
+    color: #48576b;
+    font-weight: bold;
 }
 
 .d-bloc .a-btn:hover,
@@ -649,10 +652,13 @@ h6,
 p,
 label,
 .btn,
-a {
+{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+a{
+    font-weight: bold;
 }
 a:hover{
     color: blue!important;
@@ -684,7 +690,8 @@ a:focus{
 }
 
 p {
-    font-size: 18px;
+    font-size: 21px;
+    color: #89847F;
 }
 
 .tight-width-whitespace {
@@ -748,6 +755,13 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.white--footer{
+    color: #48576b;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -762,7 +776,6 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -780,13 +793,23 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #b3a490;
 }
 
 .tc-white {
     color: #F4BC90!important;
+    position: relative;
 }
 
+.tc-white--cta{
+    color: #F4BC90!important;
+    position: relative;
+    padding: 0 19px!important;
+}
+.tc-white--wid{
+    color: #FBFF51!important;
+    position: relative;
+}
 .btn-atomic-tangerine {
     background: #4E342E;
     color: #FDD839!important;
