@@ -717,7 +717,7 @@ p {
     max-width: 400px;
     margin: 10px auto 10px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 h2 {
@@ -756,7 +756,7 @@ h4 {
 }
 
 .white--footer{
-    color: #48576b;
+    color: #354458!important;
     font-weight: bold;
     font-style: italic;
     font-size: 18px;
@@ -777,6 +777,7 @@ h4 {
 
 .black-background {
     padding: 40px 40px 40px 40px;
+    background-color: rgba(165, 147, 99, 0.7);
 }
 
 .bold-link {
