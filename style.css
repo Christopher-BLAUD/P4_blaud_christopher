@@ -733,6 +733,7 @@ h2 {
     color: #575757!important;
     margin-top: 20px;
     margin-bottom: 10px;
+    text-transform: none;
 }
 
 h3 {
