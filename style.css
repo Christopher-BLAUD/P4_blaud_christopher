@@ -725,6 +725,16 @@ h2 {
     line-height: 1.4em;
 }
 
+.title-portfolio{
+    font-size: 22px;
+    line-height: 1.4em;
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #575757!important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
