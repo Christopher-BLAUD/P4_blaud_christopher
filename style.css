@@ -453,6 +453,12 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
@@ -510,7 +516,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: black;
     box-shadow: none;
 }
 
@@ -536,8 +542,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -556,6 +563,10 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+}
+
+article{
+    margin-bottom: 90px;
 }
 
 a[data-lightbox]:hover img {
@@ -663,9 +674,10 @@ a{
 a:hover{
     color: blue!important;
     font-weight: bold;
+    transform: scale(1.2);
 }
 a:focus{
-    border: 3px dashed black;
+    border: 5px dashed black;   
 }
 .container {
     max-width: 1000px;
@@ -673,6 +685,11 @@ a:focus{
 
 .hero-bloc-text {
     font-size: 38px;
+}
+
+.hero-bloc-text--contact {
+    font-size: 34px;
+    font-weight: bold;
 }
 
 .hero-bloc-text-sub {
@@ -694,6 +711,10 @@ p {
     color: #89847F;
 }
 
+.contact-info{
+    text-align: center;
+    line-height: 1.5;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -711,6 +732,10 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+}
+
+.cta-hero:focus{
+    border: 5px dashed black;
 }
 
 .social {
@@ -751,6 +776,9 @@ h3 {
 
 h1 {
     color: #333333!important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 h4 {
@@ -787,13 +815,23 @@ h4 {
 }
 
 .black-background {
-    padding: 40px 40px 40px 40px;
+    padding: 40px 10px 40px 10px;
     background-color: rgba(165, 147, 99, 0.7);
 }
 
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+}
+
+.bold-link--wid{
+    font-weight: 900;
+    text-decoration: underline!important;
+}
+
+.bold-link--wid:hover {
+    color: blue!important;
+    transform: scale(1.2)!important;
 }
 
 .bgc-white {
@@ -820,6 +858,11 @@ h4 {
 }
 .tc-white--wid{
     color: #FBFF51!important;
+    position: relative;
+}
+
+.tc-white--contact{
+    color: #FDD839!important;
     position: relative;
 }
 .btn-atomic-tangerine {
@@ -849,7 +892,8 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-position: top;
 }
 
 .bg-lines-h2-bg {
