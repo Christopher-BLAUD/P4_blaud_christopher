@@ -677,7 +677,7 @@ a:hover{
     transform: scale(1.2);
 }
 a:focus{
-    border: 5px dashed black;   
+    border: 2px dashed black;  
 }
 .container {
     max-width: 1000px;
